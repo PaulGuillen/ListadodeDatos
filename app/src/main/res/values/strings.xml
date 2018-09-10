@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ListadodeDatos</string>
+    <string-array name="datos">
+        <item>INGRESAR DATOS</item>
+        <item>LISTAR DATOS</item>
+    </string-array>
+
+</resources>

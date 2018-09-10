@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_height="match_parent"
+    tools:context=".Ingresar">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="REGISTRO DE EMPLEADOS"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView1"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="CODIGO :"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView2"/>
+
+        <EditText
+            android:id="@+id/txtCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:drawableLeft="@drawable/consentimiento"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="8dp">
+        <requestFocus />
+
+
+    </EditText>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="NOMBRE :"
+        android:textSize="20dp"
+        android:id="@+id/textView3"/>
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/usuario"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="8dp"/>
+
+    <requestFocus />
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="SUELDO :"
+        android:textSize="20dp"
+        android:id="@+id/textView4"/>
+
+    <EditText
+        android:id="@+id/txtSueldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/monedas"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="8dp"/>
+    <requestFocus />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:onClick="agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:text="Agregar"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:drawableLeft="@drawable/agregarusuario"
+        android:drawablePadding="10dp"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:textSize="20dp"
+        android:textColor="@color/teal_primary_dark"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp" />
+
+
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:onClick="regresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:text="Volver"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:drawableLeft="@drawable/flecha"
+        android:drawablePadding="10dp"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:textSize="20dp"
+        android:textColor="@color/teal_primary_dark"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp" />
+
+
+
+
+
+</LinearLayout>
